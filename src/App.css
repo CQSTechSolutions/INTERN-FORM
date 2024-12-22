@@ -4,12 +4,13 @@
   --clr-3: #0e4b50;
   --clr-4: #2d8f85;
   --clr-5: #637c54;
+  --clr-6: white;
 
 }
 
 div{
   background: var(--clr-1);
-  color: var(--clr-2);
+  color: var(--clr-6);
   padding: 20px;
   transition: transform 0.2s;
 
@@ -48,10 +49,9 @@ body{
   margin: 0 auto;
 }
 
-.container{
+.container {
   background-color: black;
   border-radius: 15px;
-  box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
   padding: 10px 20px;
   transition: transform 0.2s;
   width: 500px;
@@ -60,14 +60,8 @@ body{
   align-items: center;
   margin: auto;
   margin-top: 20px;
- 
-
-  
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 10);
 }
-
-
-
-
 
 h1{
   font-size: x-large;
@@ -75,9 +69,21 @@ h1{
   color: whitesmoke;
 }
 
-::placeholder{
-  color: grey;
+input,
+textarea {
+  background-color: white; 
 }
+
+input::placeholder,
+textarea::placeholder {
+  color: black; 
+}
+
+.gender-label,
+.gender-options label {
+  color: white; 
+}
+
 
 label{
   font-size: 15px;
@@ -155,6 +161,8 @@ select{
   border: 1px solid black;
   border-radius: 4px;
   font-size: 12px;
+  background: white;
+  color: black;
  
 }
 
@@ -180,4 +188,9 @@ textarea{
 
 button:hover{
   background-color: #8E5CFF;
+}
+
+.dob-label{
+  
+
 }
