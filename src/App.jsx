@@ -1,4 +1,3 @@
-import "./App.css";
 import { useState } from "react";
 
 function App() {
@@ -47,7 +46,7 @@ function App() {
   return (
     <div className="container">
       <h1>Intern Form</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="intern-form">
         <label htmlFor="fname">First Name</label>
         <input
           type="text"
@@ -93,7 +92,7 @@ function App() {
         />
 
         <label htmlFor="gender">Gender</label>
-        <div className="gender">
+        <div className="gender-options">
           <input
             type="radio"
             name="gender"
@@ -174,10 +173,12 @@ function App() {
           required
         ></textarea>
 
-        <button type="button" onClick={handleReset}>
+        <button type="button" onClick={handleReset} className="reset-button">
           Reset
         </button>
-        <button type="submit">Submit</button>
+        <button type="submit" className="submit-button">
+          Submit
+        </button>
       </form>
     </div>
   );
