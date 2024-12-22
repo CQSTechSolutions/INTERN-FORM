@@ -72,6 +72,7 @@ h1{
 input,
 textarea {
   background-color: white; 
+  color:black;
 }
 
 input::placeholder,
@@ -92,7 +93,6 @@ label{
   margin-bottom: 5px;
   margin-top:8px;
   text-align: left;
-  color: whitesmoke;
   font-weight: bold;
 }
 
@@ -190,7 +190,7 @@ button:hover{
   background-color: #8E5CFF;
 }
 
-.dob-label{
-  
 
-}
+
+
+

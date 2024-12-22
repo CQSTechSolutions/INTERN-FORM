@@ -6,7 +6,7 @@ function App() {
       <h1>Intern Form</h1>
       <form>
         <label htmlFor="fname">First Name</label>
-        <input type="text" id="fname" name="fname" placeholder="Enter  First Name" required />
+        <input type="text"      id="fname" name="fname" placeholder="Enter  First Name" required />
 
         <label htmlFor="lname">Last Name</label>
         <input type="text" id="lname" name="lname" placeholder="Enter  Last Name" required />
