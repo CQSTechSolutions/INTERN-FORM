@@ -9,16 +9,17 @@
 }
 
 div{
-  background: var(--clr-1);
+  /* background: var(--clr-1); */
+  background: rgb(223, 223, 223);
   color: var(--clr-6);
   padding: 20px;
   transition: transform 0.2s;
 
 }
 
-div:hover{
+/* div:hover{
   transform: scale(1.05);
-}
+} */
 
 .container.box::before,
 .container.box::after{
@@ -50,29 +51,30 @@ body{
 }
 
 .container {
-  background-color: black;
   border-radius: 15px;
   padding: 10px 20px;
   transition: transform 0.2s;
-  width: 500px;
+  width: 50%;
   text-align: center;
   justify-content: center;
   align-items: center;
   margin: auto;
   margin-top: 20px;
-  box-shadow: 0 5px 10px rgba(255, 255, 255, 10);
+  border: 1px solid rgb(201, 201, 201);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1{
   font-size: x-large;
   text-align: center;
-  color: whitesmoke;
+  color: black;
 }
 
 input,
 textarea {
   background-color: white; 
   color:black;
+  border: black solid transparent;
 }
 
 input::placeholder,
@@ -82,7 +84,10 @@ textarea::placeholder {
 
 .gender-label,
 .gender-options label {
-  color: white; 
+  color:#052b2f; 
+}
+.gender{
+  color: black;
 }
 
 
@@ -94,6 +99,7 @@ label{
   margin-top:8px;
   text-align: left;
   font-weight: bold;
+  color: black;
 }
 
 input{
@@ -127,8 +133,8 @@ button{
   padding: 10px 15px;
   margin-top: 15px;
   margin-bottom: 15px;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   border: none;
   text-align: center;
   text-decoration: none;
